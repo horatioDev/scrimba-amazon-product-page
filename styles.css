@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  /* width: 100vh;
+  height: 100vh; */
+}
+
+#product {
+  border-top: 2px solid #757777;
+  border-bottom: 2px solid #757777;
+  display: flex;
+  width: 80%;
+  /* height: 400px; */
+  margin: 80px auto;
+  padding: 5px;
+}
+
+.product-images,
+.product-content {
+  width: 50%;
+}
+
+
+.product-images {
+  background-image: url("https://m.media-amazon.com/images/I/81lymaKlIFL.__AC_SX300_SY300_QL70_FMwebp_.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  margin-right: 5px;  
+}
+
+.image-links-list li {
+  margin: 5px;
+  border-radius: 6px;
+  list-style: none;
+  width: 60px;
+  height: 60px;
+}
+
+.image-links-list li:hover {
+  border: 3px solid blue;
+}
+
+.image-links-list img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.video-link {
+  border: 1px dashed yellow;
+  position: relative;
+  padding: 6px;
+}
+
+.video-link span {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #757777;
+  font-weight: bold;
+  left: 6px;
+  top: 45px;
+  width: 100%;
+}
+
+.product-content a {
+  color: #1196ab;
+}
+
+.product-heading {
+  border-bottom: 1px solid #757777;
+  padding: 5px;
+}
+
+.product-heading a:hover {
+  color: #c7511f;
+}
+
+.product-description h1 {
+  margin: 10px 0;
+}
+
+.product-description p {
+  font-weight: bold;
+}
+
+.product-description p >span {
+  font-weight: normal;
+  color: #757777;
+}
+
+.product-description .description-list {
+  margin: 2px;
+  list-style: none;
+  font-size: 20px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #757777;
+}
+
+.product-description .description-list li > span {
+  font-weight: bold;
+}
+
+.product-description .about-item-list {
+  margin-left: 25px;
+}
